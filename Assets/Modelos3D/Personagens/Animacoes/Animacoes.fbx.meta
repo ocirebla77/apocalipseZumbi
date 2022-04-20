@@ -260,7 +260,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Correr
       takeName: Take 001
-      firstFrame: 79
+      firstFrame: 82
       lastFrame: 99
       wrapMode: 0
       orientationOffsetY: 0
