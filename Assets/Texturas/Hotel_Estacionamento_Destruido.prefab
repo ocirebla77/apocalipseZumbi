@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4731874634517252}
   - component: {fileID: 33080374727627396}
   - component: {fileID: 23588039805625234}
+  - component: {fileID: 65937798833157688}
   m_Layer: 0
   m_Name: Hotel_Estacionamento_Destruido
   m_TagString: Untagged
@@ -82,3 +83,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1343522222742728}
   m_Mesh: {fileID: 4300000, guid: b1774bd68b7e19545aa0aa03f5d6a8ec, type: 3}
+--- !u!65 &65937798833157688
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1343522222742728}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 58.916443, y: 1.7284715, z: 45.2812}
+  m_Center: {x: -29.458221, y: -0.42279413, z: -22.640265}
