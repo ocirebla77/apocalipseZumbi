@@ -224,33 +224,33 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 159c3ed403f441a42a7f7f5ecd77af05, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &444611087
+--- !u!1 &508665961
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 444611088}
+  - component: {fileID: 508665962}
   m_Layer: 0
-  m_Name: canoDaArma
+  m_Name: CanoArma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &444611088
+--- !u!4 &508665962
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 444611087}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.157, y: 1.93, z: -19.251}
+  m_GameObject: {fileID: 508665961}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.385, y: 1.9, z: 1.322}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 1751734933}
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &653692616
 Prefab:
@@ -577,6 +577,34 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 35861510587b7489780fe86970823679, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1074710040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1074710041}
+  m_Layer: 0
+  m_Name: CanoDaArmaa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1074710041
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1074710040}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.453, y: 2.3028, z: -0.08100128}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1751734933}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1187687633
 Prefab:
   m_ObjectHideFlags: 0
@@ -987,8 +1015,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7993f7e20803ea4eb9f8935ffbe4ac3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bala: {fileID: 1503419757943736, guid: c2c35549300e3674e891affc8ad9bc56, type: 2}
-  canoDaArma: {fileID: 444611087}
+  Bala: {fileID: 1565592056399212, guid: 6484d3eb97bfa5049aa11627e8686349, type: 2}
+  CanoDaArma: {fileID: 508665961}
 --- !u!1001 &2061781567
 Prefab:
   m_ObjectHideFlags: 0

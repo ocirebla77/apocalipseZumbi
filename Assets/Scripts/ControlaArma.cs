@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ControlaArma : MonoBehaviour {
-    public GameObject bala;
-    public GameObject canoDaArma;
+    public GameObject Bala;
+    public GameObject CanoDaArma;
 
 	// Use this for initialization
 	void Start () {
@@ -16,7 +16,7 @@ public class ControlaArma : MonoBehaviour {
 
         if (Input.GetButtonDown("Fire1"))
         {
-            Instantiate(bala, canoDaArma.transform.position, canoDaArma.transform.rotation);
+            Instantiate(Bala, CanoDaArma.transform.position, CanoDaArma.transform.rotation);
 
         }
 		
