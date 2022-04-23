@@ -44,5 +44,13 @@ public class ControlaInimigo : MonoBehaviour {
             GetComponent<Animator>().SetBool("atacando", true);
 
         }
+
+       
+    }
+
+    void AtacaJogador()
+    {
+        Time.timeScale = 0;
+
     }
 }
