@@ -8,7 +8,11 @@ public class ControlaInimigo : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-     //  distanciaCompensar = transform.position - jogador.transform.position;
+        //  distanciaCompensar = transform.position - jogador.transform.position;
+
+        jogador = GameObject.FindWithTag("jogador");
+        int geraTipoZumbi = Random.Range(1, 28);
+        transform.GetChild(geraTipoZumbi).gameObject.SetActive(true);
 
 
 
